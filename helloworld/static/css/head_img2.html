@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>纯CSS旋转原子</title>
+
+<style>
+body {
+    background-color: #222;
+    height: 14rem
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 6rem;
+  border: .6rem solid cyan;
+}
+
+.circle:nth-child(1) {
+  transform: rotateX(70deg);
+  animation: spin1 1s linear infinite, colorize 1.2s linear infinite;
+}
+
+.circle:nth-child(2) {
+  transform: rotateY(70deg) rotateX(30deg);
+  animation: spin2 1.2s linear infinite, colorize 1.2s .4s linear infinite;
+}
+
+.circle:nth-child(3) {
+  transform: rotateY(70deg) rotateX(-30deg);
+  animation: spin3 .8s linear reverse infinite, colorize 1.2s .8s linear infinite;
+}
+
+.circle:before,
+.circle:after {
+  content: '';
+  position: absolute;
+  height: 2rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background: deepskyblue;
+  transform: rotateZ(90deg);
+}
+
+.circle:before {
+  margin: -4rem;
+}
+
+.circle:after {
+  background-color: magenta;
+}
+
+@keyframes spin1 {
+  0% {
+    transform: rotateX(70deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(70deg) rotateZ(180deg);
+  }
+  100% {
+    transform: rotateX(70deg) rotateZ(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotateY(70deg) rotateX(30deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateY(70deg) rotateX(30deg) rotateZ(180deg);
+  }
+  100% {
+    transform: rotateY(70deg) rotateX(30deg) rotateZ(360deg);
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    transform: rotateY(70deg) rotateX(-30deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateY(70deg) rotateX(-30deg) rotateZ(180deg);
+  }
+  100% {
+    transform: rotateY(70deg) rotateX(-30deg) rotateZ(360deg);
+  }
+}
+
+@keyframes colorize {
+  50% {
+    border-color: magenta;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container div">
+  <div class="circle div"></div>
+  <div class="circle div"></div>
+  <div class="circle div"></div>
+</div>
+
+
+</body>
+</html>

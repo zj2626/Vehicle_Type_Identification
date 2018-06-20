@@ -1,0 +1,720 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="static/pic_script/css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="static/pic_script/fonts/font-awesome-4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="static/pic_script/css/demo.css"/>
+
+    <!--必要样式-->
+    <link rel="stylesheet" type="text/css" href="static/pic_script/css/card.css"/>
+    <link rel="stylesheet" type="text/css" href="static/pic_script/css/pattern.css"/>
+
+    <script type="text/javascript" src="static/js/jquery-2.1.1.js"></script>
+    <!--[if IE]>
+    <script src="static/pic_script/js/html5.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        }
+    </script>
+</head>
+<body style="overflow: hidden; background-color: #cccccc">
+<div class="container">
+    <div class="content">
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_001">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_001)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">轿车</h2>
+                            <p class="card__subtitle">Sedan</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>轿车是指用于载送人员及其随身物品，且座位布置在两轴之间的汽车。包括驾驶者在内，座位数最多不超过九个。</p>
+                            <p>一般轿车强调的是舒适性，以乘员为中心。而且是从经济性考虑出发，选择马力适中、排量小、耗油量小的发动机。</p>
+                            <p>
+                                轿车，某些地区称房车或私家车，美国英语称为Sedan，在英国则称为Saloon，通常指用于人员以及行李运输的汽车。轿车除乘客厢外，外观上可见明显长度的车头与车尾，因此可从外形上清晰分辨出引擎室，人员乘坐室以及行李舱（某些地区对这种外形的分类称之为三厢）。轿车其外型类似古代轿子（英格兰称轿子为Sedan
+                                chairs）乘客厢前后有长握柄，故名为“轿车”。</p>
+                            <p>
+                                在某些时候，在中国大陆的行驶证管理方面，轿车特指区别于货车、皮卡、SUV、大巴和中巴的小型汽车，俗称为“小轿车”。在香港，轿车又称私家车，是最为常用的交通工具，用于载人及行李。包括驾驶者在内，座位数最多不超过9个，它又以不同的类型所划分。</p>
+                            <p>按照<span class="sp_title">中国大陆标准</span>划分为：微型轿车（排量为1L以下）、普通级轿车（排量为1.0~1.6L)、中级轿车（排量为1.6~2.5L）、中高级轿车（排量为2.5~4.0L）和高级轿车（排量为4L以上）。
+                            </p>
+                            <p><span class="sp_title">欧系分类</span>：德国大众是欧洲最大的汽车制造商，也是最早进入中国轿车市场的企业，它的轿车分类法无疑具有代表性。德国轿车分为A、B、C、D级，其中A级车又可分为Aoo、Ao和A等三级车，相当于我国的微型轿车和普通型轿车；B级和C级分别相当于我国的中级轿车和中高级轿车；D级车是相当于我国的大红旗等高档轿车。
+                            </p>
+                            <p><span class="sp_title">美系分类</span>：对于美系分类标准，可从通用汽车公司的分类中略见一斑。通用公司一般将轿车分为6级，它是综合考虑了车型尺寸、排量、装备和售价之后得出的分类。它的Mini相当于我国的微型轿车；我国的普通型轿车在通用的分类中可找到2个级别，即Sm/all和LowMed；各家只对中级轿车的分类标准比较一致，即中级轿车Interm（B级）；中高级轿车即Upp－med，在我国相当于近几年涌现最多、销售最畅的奥迪、别克和雅阁等新型车；高级轿车相对应的是Large/Lux级别。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath13">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath13)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/j1.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath14">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath14)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/j2.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath15">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath15)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/j3.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath16">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath16)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/j4.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_002">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_002)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">多功能运动车</h2>
+                            <p class="card__subtitle">SUV</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>运动型多用途车,不同于可在崎岖地面使用的ORV越野车（Off-Road Vehicle的缩写） ；SUV全称是Sport Utility
+                                Vehicle，或Suburban Utility Vehicle，即城郊多用途车，是一种拥有旅行车般的空间机能，配以货卡车的越野能力的车型。</p>
+                            <p>
+                                SUV的特点是强动力、越野性、宽敞舒适及良好的载物和载客功能，也有人说，SUV是豪华轿车的舒适精细加上越野车的本性。SUV是轿车与越野车的混血后裔，与其祖先相比，SUV如虎添翼。</p>
+                            <p>
+                                SUV乘坐空间表现比较出色，无论在前排还是后排，都能可以宽裕的坐在车里。前排座椅的包裹性与支撑性十分到位，此外车内的储物格比较多，日常使用方便。SUV的热潮最早从美国延烧开来，不仅欧美地区在流行，连远在亚洲日本和韩国的汽车厂商也开始开发SUV的车款。由于受到RV休旅风气的影响，SUV的高空间机能和越野能力，已经取代旅行车成了休闲旅游的主要车型。SUV成了当时最受欢迎的车款。</p>
+                            <p>世界顶级SUV以美国的吉普大切诺基、英国的路虎揽胜、德国的奔驰G级为代
+                                表，它们已成为富有阶级的标志之一。</p>
+                            <p>
+                                在豪华车领域的SUV里，大家比较熟知的有奥迪Q系列，宝马X系列，奔驰G、GLK、ML系列，雷克萨斯GX、LX、RX系列，保时捷卡宴，大众途锐，英菲尼迪QX系列，讴歌MDX、ZDX、RDX，路虎揽胜、神行者等等。</p>
+                            <p>国产SUV，以性价比高而著称，其中荣威RX5，哈弗H6，长安CS75更是作为自主SUV的代表。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath17">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath17)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/su1.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath19">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath19)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/su2.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath20">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath20)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/su3.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath21">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath21)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/su4.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_003">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_003)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">卡车</h2>
+                            <p class="card__subtitle">Truck</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>
+                                卡车，又称作载货汽车，一般称作货车，指主要用于运送货物的汽车，有时也指可以牵引其他车辆的汽车，属于商用车辆类别。一般可依照车的重量分为重型和轻型两种。绝大部分货车都以柴油引擎作为动力来源，但有部分轻型货车使用汽油、石油气或者天然气。</p>
+                            <p>卡车(Truck)的正式名称为载重汽车，是运载货物和商品用
+                                的一种汽车形式，包括自卸卡车、 牵引卡车、非公路和无路地区的越野卡车和各种专为特殊需要制造的卡车(如机场摆渡车、消防车和救护车、油罐车、集装箱牵引卡车等)。</p>
+                            <p>
+                                1975年7月1日，2.5吨越野车在位于湖北十堰的汽车制造厂正式投产。第二汽车制造厂的建设是中国汽车工业的一个里程碑，它完全是中国人自己建设完成，在建设过程中没有任何一个外国技术人员参与协助，这标志着中国汽车工业发展已达到了较高的水平。</p>
+                            <p>
+                                数据显示，2012年10月汽车销量161万辆，同比增长5%，环比下降1%;1-10月累计销量1570万辆，同增3%。其中乘用车销量130万辆，同增6%，环降1%;商用车销量31万辆，同增1%，环增2%。重卡销量明年将有所回升。首先是大量的车进入替换周期。其次是国四条例促发更新替换。重卡2008年底的保有量是200万辆，生命周期是4-5年，因此这200万辆的保有量将进入到替换周期。重卡销量增长是大概率事件。</p>
+                            <p>卡车按承载吨位分为微型卡车、轻型卡车、中型卡车、重型卡车、超重型卡车。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath22">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath22)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/ka1.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath23">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath23)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/ka4.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath24">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath24)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/ka3.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath25">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath25)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/ka2.jpg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_004">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_004)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">客车</h2>
+                            <p class="card__subtitle">Bus</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>乘坐9人以上（包括驾驶员座位在内），一般具有方形车厢，用于载运乘客及其随身行李的商用车，这类车型主要用于公共交通和团体运输使用。</p>
+                            <p>客车有单层的，也有双层的；有铰接的，也有牵引挂车型的。有两门、单门式，或备有行李舱。
+                                多数客车采用柴油机驱动，目前也有纯电动车，全金属车身。按照乘车人数计算所耗用的能源和所占的道路面积，
+                                公共交通车辆要比个人车辆经济，这是许多国家优先发展公共交通客车的主要原因之一。从世界范围而言，轿车制造和普及比较广泛，
+                                因此作为公共交通主体的客车制造业，无论是从设计理念还是设计技术，都表现出相当成熟，欧洲的客车技术水平和科研能力居世界首位。
+                                中国客车业的设计能力和制造水平，在国际上占有重要的位置。/p>
+                            <p>
+                                客车按总体结构可分为单车和列车。单车是基本车型，按客车总重或设置座位数常分为大、中、小型。中国规定单体客车的长度一般不超过13.7米。客车列车的车厢和车架分为前后两节。两节车架用铰接盘连接，两节车厢用活动褶篷连接，使车厢前后相通，故又称为铰接式或通道式客车。中国规定客车列车的长度一般不超过18米。</p>
+                            <p>
+                                按照服务方式不同，客车的构造亦不同，可分为旅行客车、城市公共客车、公路客车、铁路客车、游览客车及校车等类型。旅行客车是一种小型客车，座位数不超过17个。根据其外观形状，中国俗称“面包车”。城市公共客车由于乘客上下车频繁，其地板离地高度较低并设有2～3扇客门，车内设站立位置，故车内通道应有足够的高度与宽度。公路客车由于乘坐时间长，车内全部布置座席，通常只有1扇客门，乘坐舒适性要求较高，还须设有若干个行李舱。铁路客车铁路公路上载运旅客用的车辆。铁路上的客车还包括餐车，邮政车和行李车。游览客车有较舒适的座位，其车窗尺寸较大，以便开阔视野。校车是用于运送学生往返学校的交通工具。</p>
+                            <p>
+                                按照车辆长度分级：微型客车——长度3.5m以下；轻型客车——长度3.5～7m；中型客车——长度7～10m；大型客车——长度10～12m；特大型客车——包括铰接式客车（车辆长度大于12m）和双层客车（长度10～12m）两种，如上海客车厂生产的SK6141A3铰接客车和南京金陵双层客车厂生产的JL6121S双层客车。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath1">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath1)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/k3.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath2">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath2)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/k2.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath3">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath3)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/k1.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath4">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath4)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/k4.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_005">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_005)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">面包车</h2>
+                            <p class="card__subtitle">Microbus</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>面包车是指前后没有突出的发动机仓和行李仓，就像一个面包一样的车辆统称。上世纪七十年代末八十年代初，大陆地区的面包车远没有今天这么式样丰富多彩，大都是一个长方体的形状。</p>
+                            <p>面包车的分类方法较多，通常以功能和座位数分类。
+                            <h4>6~8座型（微客）</h4>
+                            这是最为常见的面包车，用于一般载客或运货，只需要C1驾驶证即可驾驶。
+                            座位分布：驾驶座、副驾驶座及4~6个乘员座位（乘员座位组合可能为前2后2，前2后3或前3后3）。
+                            <h4>9~12座型（轻客）</h4>
+                            交通法规要求学生接送车必须是9座及以上车辆，所以它被常常当作学生接送车、旅行车或商务车，此种面包车需要B1驾驶证方可驾驶。
+                            座位分布：驾驶座、副驾驶座及7~10个乘员座位（乘员座位分3排，组合为2，2，3或3，3，3或3，3，4等）。
+                            <h4>13座以上型（中型客车）</h4>
+                            这种车比较特殊，因为其作用已经有些接近客车了。用于运送较多乘客或货物。此外，它还可以改装成房车。对于想买房车但经济条件并不特别宽裕的家庭来讲，改装无疑是最好的选择。
+                            座位分布：驾驶座、副驾驶座及11个以上乘员座位（乘员座位有多种组合，至少4排）。
+                            <h4>商务型</h4>
+                            商务面包车可以说是整合了面包车和商务车的两种车型的特点，但在外观和使用上还是更偏重于面包车。与传统面包车相比较商务面包车看起来更正式化、商业化。
+                            </p>
+                            <p>面包车价格低廉，种类较多，且经济实用，在很多行业中都能广泛应用。在现代社会，面包车作为汽车大家族中重要的一员，一定能在全社会推广、普及。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath5">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath5)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/m1.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath6">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath6)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/m2.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath7">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath7)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/m3.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath8">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath8)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/m4.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="first_card card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath_006">
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath_006)" width="100%"
+                               xlink:href="static/pic_script/img/back_img.jpeg"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption full_title">
+                            <h2 class="card__title card__name">小型货车</h2>
+                            <p class="card__subtitle">Minivan</p>
+                        </div>
+                        <div class="card__copy">
+                            <div class="meta">
+                                <img class="meta__avatar" src="static/pic_script/img/authors/baidu.png" alt="author01"/>
+                                <span class="meta__author">百度百科</span>
+                                <span class="meta__date">01/04/2018</span>
+                            </div>
+                            <p>微型（小型）货车是货车的一种。按照中国机动车规格所定义的“微型”为：车长小于等于3.5m，总质量小于等于1800kg。</p>
+                            <p>
+                                从货车发展的历史看，微货具有经济、舒适、安全性强等优点，一直受到个体私营业主的青睐。但是随着货车市场的细分市场小卡市场越来引领趋势，微货的载重性能低这一缺点也越来越不能满足用户的需求。由于小卡市场与微货市场的用户群体存在极大的相似性，而新兴的小卡兼具了经济、安全、舒适性和更高的载重性，上可攻占轻卡市场，下可争取微货用户，所以这块蓝海区域也越发引起各大企业的青睐，纷纷进军。</p>
+                            <p>载货汽车分为轻型、中型、重型三种。各国分级方法和标准不尽相同。中国是按汽车载重量分级的，载重量3.5吨以下的为轻型载货汽车,4～8吨的为中型载货汽车，8吨以上的为重型载货汽车。
+                            <h4>标准分类</h4>
+                            <span class="sp_title">重型</span> 车长大于等于6m，总质量大于等于12000kg。<br/>
+                            <span class="sp_title">中型</span> 车长大于等于6m，总质量大于等于4500kg且小于12000kg。<br/>
+                            <span class="sp_title">轻型</span> 车长小于6m，总质量小于4500kg。<br/>
+                            <span class="sp_title">微型</span> 车长小于等于3.5m，总质量小于等于1800kg。</p>
+                            <p>在小卡行业升级的背景下，微货市场当之无愧的老大长安，
+                                长安神骐车型
+                                长安神骐车型
+                                倾力打造的长安神骐以其轻卡底盘，微货车身，重卡技术、以及轿车化内饰四大亮点，用具有竞争性的价格获取市场份额，实现口碑营销。开创了小卡市场一个新的卖场模式和服务理念。
+                                综上我们可以看出，微货市场正在慢慢像小卡市场靠拢。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath9">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath9)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/x4.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath10">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath10)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/x1.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath11">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath11)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/x3.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="clipPath12">
+                                <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                <circle class="clip" cx="960" cy="250" r="992"></circle>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#clipPath12)" width="1920" height="500"
+                               xlink:href="static/pic_script/img/x2.jpeg"></image>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- /cards -->
+    </div><!-- /content -->
+
+</div>
+<!-- /container -->
+<!-- JS -->
+<script type="text/javascript" src="static/pic_script/js/vendors/trianglify.min.js"></script>
+<script type="text/javascript" src="static/pic_script/js/vendors/TweenMax.min.js"></script>
+<script type="text/javascript" src="static/pic_script/js/vendors/ScrollToPlugin.min.js"></script>
+<script type="text/javascript" src="static/pic_script/js/vendors/cash.min.js"></script>
+<script type="text/javascript" src="static/pic_script/js/Card-circle.js"></script>
+<script type="text/javascript" src="static/pic_script/js/demo.js"></script>
+<script type="text/javascript">
+    const heights = this.document.body.scrollHeight;
+    const full_title = $(".wrapper");
+
+    $.each(full_title, function (val, index) {
+        let content = $(this).find(".first_card").eq(0).find(".card__container").eq(0).find(".card__content").eq(0);
+
+        let container = $(this).find(".card__container");
+        $.each(container, function (val, index) {
+            if (index > 0) {
+                $(this).append(content.prop("outerHTML"))
+            }
+        });
+    });
+
+    $.each(full_title, function (val, index) {
+        $(this).find(".full_title").css("display", "none");
+        $(this).find(".full_title").eq(0).css("display", "block");
+    });
+
+    try {
+        IFrameResize(0);
+    } catch (e) {
+        console.log("no in iframe")
+    }
+
+    function IFrameResize(len) {
+        const obj = parent.document.getElementById("content_frame"); //取得父页面IFrame对象
+        obj.height = heights + len; //调整父页面中IFrame的高度为此页面的高度
+    }
+</script>
+
+</body>
+</html>
